@@ -36,7 +36,7 @@ AFFILIATE_LINK = "https://lkct.cc/b21fca"
 PROMO_CODE = "GOLD1010"
 TUTORIAL_LINK = "https://t.me/africa1winmines/102"
 STICKER_ID = "CAACAgIAAxkBAAERy5ZqkPwoJtly5slyLrQj3hpp-hvrvQACAwEAAladvQoC5dF4h-X6Tz0E"
-MINES_PHOTO_URL = "AgACAgQAAxkBAAFS_aFqkm95Fx3dvoreabCFL-QI5b4WXQACfg9rG3KKiFBVpNknokzjHQEAAwIAA3kAAz0E"
+MINES_PHOTO_URL = "https://i.ibb.co/cScKJ4ns/1787885990509.png"
 
 # Loop Control & Timers
 loop_running = False
