@@ -17,9 +17,12 @@ class HealthHandler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(b"Bot is active 24/7!")
 
+class ReusableHTTPServer(HTTPServer):
+    allow_reuse_address = True
+
 def run_health_server():
     port = int(os.environ.get("PORT", 8080))
-    server = HTTPServer(("0.0.0.0", port), HealthHandler)
+    server = ReusableHTTPServer(("0.0.0.0", port), HealthHandler)
     server.serve_forever()
 
 # ========================================================
