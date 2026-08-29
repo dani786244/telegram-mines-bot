@@ -26,7 +26,7 @@ def run_health_server():
 # 2. BOT & CHANNEL CONFIGURATION
 # ========================================================
 # REPLACE "YOUR_BOTFATHER_TOKEN_HERE" WITH YOUR ACTUAL BOT TOKEN FROM BOTFATHER
-TOKEN = "8894912406:AAGC2t8rXIzXJ8yLsoynCrSiRFqyXrPEwes"  
+TOKEN = os.environ.get("BOT_TOKEN") 
 
 CHANNEL_HANDLE = "@africa1winmines"
 
